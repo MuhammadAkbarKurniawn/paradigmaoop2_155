@@ -19,3 +19,11 @@ class Abstraksiclass {
 			cout << " x = " << y << endl;
 		}
 };
+
+int main() {
+	Abstraksiclass ak;
+	ak.setXY("Yogyakarta", "Kampus");
+	ak.display();
+
+	return 0;
+}
